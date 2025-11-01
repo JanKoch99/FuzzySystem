@@ -1,45 +1,63 @@
-import { useState } from "react";
-import { Row, Col, Image } from "react-bootstrap";
+import { useMemo, useState } from "react";
+import { Row, Col, Image, Alert, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-
-const imagePairs = [
-    [img1, img2],
-    [img2, img3],
-    [img1, img3],
-    [img2, img1],
-    [img3, img2],
-];
+import dataService from "../services/dataService";
 
 export default function ImageChoice() {
-    const [round, setRound] = useState(0);
     const navigate = useNavigate();
+    const pairs = useMemo(() => dataService.getImagePairs() || [], []);
+    const [round, setRound] = useState(0);
+    const [data, setData] = useState({
+        image0: "",
+        image1: "",
+        image2: "",
+        image3: "",
+        image4: "",
+    })
 
-    const handleChoice = () => {
-        if (round < 4) setRound(round + 1);
-        else navigate("/suggestion");
+    if (!pairs || pairs.length === 0) {
+        return (
+            <div className="text-center">
+                <Alert variant="warning" className="mt-3">
+                    No image pairs available. Please provide data again.
+                </Alert>
+                <Button className="mt-2" onClick={() => navigate("/other")}>Back</Button>
+            </div>
+        );
+    }
+
+    const totalRounds = pairs.length;
+
+    const handleChoice = async (e) => {
+        await setData({...data, [`image${round}`]: e})
+        if (round < totalRounds - 1) {
+            setRound(round + 1)
+        } else {
+            dataService.setSelectedImagePairs(data)
+            await dataService.fetchFinalImages()
+            dataService.clear()
+            navigate("/suggestion")
+        }
     };
 
     return (
         <div className="text-center">
-            <h3>Choose your preferred image (Round {round + 1}/5)</h3>
+            <h3>Choose your preferred gift (Round {round + 1}/{totalRounds})</h3>
             <Row className="mt-4">
                 <Col>
                     <Image
-                        src={imagePairs[round][0]}
+                        src={pairs[round][0].path}
                         thumbnail
                         style={{ cursor: "pointer" }}
-                        onClick={handleChoice}
+                        onClick={() => handleChoice(pairs[round][0].value)}
                     />
                 </Col>
                 <Col>
                     <Image
-                        src={imagePairs[round][1]}
+                        src={pairs[round][1].path}
                         thumbnail
                         style={{ cursor: "pointer" }}
-                        onClick={handleChoice}
+                        onClick={() => handleChoice(pairs[round][1].value)}
                     />
                 </Col>
             </Row>

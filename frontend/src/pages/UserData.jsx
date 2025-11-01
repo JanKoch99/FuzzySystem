@@ -5,9 +5,10 @@ import oldPerson from "../assets/userData/oldPerson.png";
 import youngPerson from "../assets/userData/youngPerson.png";
 import noMoney from "../assets/userData/noMoney.png";
 import muchMoney from "../assets/userData/muchMoney.png";
+import dataService from "../services/dataService";
 
 export default function UserData() {
-    const [data, setData] = useState({
+    const [data, setData] = useState(dataService.getUserData() ? dataService.getUserData() : {
         age: 0,
         budget: 0,
         relationship: 0,
@@ -97,7 +98,7 @@ export default function UserData() {
 
             <Form.Group className="mb-3">
                 <Form.Label column="sm">Occasion</Form.Label>
-                <Form.Select name="occasion" onChange={handleChange}>
+                <Form.Select name="occasion" onChange={handleChange} value={data.occasion}>
                     <option value="">Select</option>
                     <option>Birthday</option>
                     <option>Anniversary</option>
@@ -106,7 +107,7 @@ export default function UserData() {
                 </Form.Select>
             </Form.Group>
 
-            <Button onClick={() => navigate("/other")}>Next</Button>
+            <Button onClick={() => { dataService.setUserData(data); navigate("/other"); }}>Next</Button>
         </Form>
     );
 }
