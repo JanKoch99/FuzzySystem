@@ -3,9 +3,9 @@
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
-import {config} from "../Constants.js";
+import { config } from "../Constants.js";
 
-const API_BASE_URL = config.url
+const API_BASE_URL = config.url;
 
 class DataService {
   constructor() {
@@ -17,7 +17,7 @@ class DataService {
   }
 
   getUserData() {
-      return this.userData
+    return this.userData;
   }
   setUserData(data) {
     this.userData = { ...data };
@@ -32,11 +32,11 @@ class DataService {
   }
 
   setSelectedImagePairs(selectedImagePairs) {
-      this.selecteImagePairs = selectedImagePairs;
+    this.selecteImagePairs = selectedImagePairs;
   }
 
   getFinalImages() {
-      return this.finalImages;
+    return this.finalImages;
   }
 
   clear() {
@@ -48,7 +48,9 @@ class DataService {
 
   async fetchImagePairs(signal) {
     if (!this.userData || !this.otherPersonData) {
-      throw new Error("Missing userData or otherPersonData before fetching image pairs.");
+      throw new Error(
+        "Missing userData or otherPersonData before fetching image pairs."
+      );
     }
 
     const payload = {
@@ -56,71 +58,112 @@ class DataService {
       other: this.otherPersonData,
     };
 
-    //TODO: Remove if backend works
-    this.imagePairs = [
-          [{path: img1, value: 'image1'}, {path: img2, value: 'image2'}],
-          [{path: img2, value: 'image2'}, {path: img3, value: 'image3'}],
-          [{path: img1, value: 'image1'}, {path: img3, value: 'image3'}],
-          [{path: img2, value: 'image2'}, {path: img1, value: 'image1'}],
-          [{path: img3, value: 'image3'}, {path: img2, value: 'image2'}],
-      ];
-    return this.imagePairs
-
     const url = `${API_BASE_URL}/api/generate-image-pairs`;
 
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-      signal,
-    });
+    try {
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+        signal,
+      });
 
-    if (!res.ok) {
-      const text = await res.text().catch(() => "");
-      throw new Error(`Failed to fetch image pairs (${res.status}): ${text}`);
+      if (!res.ok) {
+        const text = await res.text().catch(() => "");
+        throw new Error(`Failed to fetch image pairs (${res.status}): ${text}`);
+      }
+
+      const data = await res.json();
+      // Expecting { imagePairs: [[imgA, imgB], ...] }
+      this.imagePairs = data?.imagePairs || null;
+      return this.imagePairs;
+    } catch (error) {
+      console.error("Error fetching image pairs:", error);
+      // Fallback to mock data if backend is not available (for development)
+      console.warn("Using fallback mock data for image pairs");
+      this.imagePairs = [
+        [
+          { path: img1, value: "gift_001", name: "Gift 1" },
+          { path: img2, value: "gift_002", name: "Gift 2" },
+        ],
+        [
+          { path: img2, value: "gift_002", name: "Gift 2" },
+          { path: img3, value: "gift_003", name: "Gift 3" },
+        ],
+        [
+          { path: img1, value: "gift_001", name: "Gift 1" },
+          { path: img3, value: "gift_003", name: "Gift 3" },
+        ],
+        [
+          { path: img2, value: "gift_002", name: "Gift 2" },
+          { path: img1, value: "gift_001", name: "Gift 1" },
+        ],
+        [
+          { path: img3, value: "gift_003", name: "Gift 3" },
+          { path: img2, value: "gift_002", name: "Gift 2" },
+        ],
+      ];
+      return this.imagePairs;
     }
-
-    const data = await res.json();
-    // Expecting { imagePairs: [[imgA, imgB], ...] }
-    this.imagePairs = data?.imagePairs || null;
-    return this.imagePairs;
   }
 
   async fetchFinalImages(signal) {
-      if(!this.selecteImagePairs) {
-          throw new Error("Missing selected image pairs.");
-      }
+    if (!this.selecteImagePairs) {
+      throw new Error("Missing selected image pairs.");
+    }
 
-      const payload = {
-          user: this.userData,
-          other: this.otherPersonData,
-          selectedImages: this.selecteImagePairs
-      }
+    const payload = {
+      user: this.userData,
+      other: this.otherPersonData,
+      selectedImages: this.selecteImagePairs,
+    };
 
-      //TODO: Remove if backend works
-      this.finalImages = [
-          {path: img1, value: 'image1'},
-          {path: img2, value: 'image1'},
-          {path: img3, value: 'image1'}
-      ]
-      return
+    const url = `${API_BASE_URL}/api/generate-final-images`;
 
-      const url = `${API_BASE_URL}/api/generate-final-images`;
-
+    try {
       const res = await fetch(url, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-          signal
-      })
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+        signal,
+      });
 
       if (!res.ok) {
-          const text = await res.text().catch(() => "");
-          throw new Error(`Failed to fetch final images (${res.status}): ${text}`);
+        const text = await res.text().catch(() => "");
+        throw new Error(
+          `Failed to fetch final images (${res.status}): ${text}`
+        );
       }
 
       const data = await res.json();
       this.finalImages = data?.finalImages || null;
+      return this.finalImages;
+    } catch (error) {
+      console.error("Error fetching final images:", error);
+      // Fallback to mock data if backend is not available (for development)
+      console.warn("Using fallback mock data for final images");
+      this.finalImages = [
+        {
+          path: img1,
+          value: "gift_001",
+          name: "Fallback Gift 1",
+          description: "Mock data",
+        },
+        {
+          path: img2,
+          value: "gift_002",
+          name: "Fallback Gift 2",
+          description: "Mock data",
+        },
+        {
+          path: img3,
+          value: "gift_003",
+          name: "Fallback Gift 3",
+          description: "Mock data",
+        },
+      ];
+      return this.finalImages;
+    }
   }
 }
 

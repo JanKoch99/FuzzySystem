@@ -1,0 +1,672 @@
+{
+    "gifts": [
+        {
+            "id": "gift_001",
+            "name": "Wireless Earbuds",
+            "category": "Electronics",
+            "description": "High-quality wireless earbuds with noise cancellation",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 60,
+                "technical": 80,
+                "creative": 40,
+                "managerial": 30,
+                "academic": 50,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 40
+            }
+        },
+        {
+            "id": "gift_002",
+            "name": "Smartwatch",
+            "category": "Electronics",
+            "description": "Fitness tracking smartwatch with health monitoring",
+            "price_range": 75,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 70,
+                "technical": 85,
+                "creative": 30,
+                "managerial": 60,
+                "academic": 40,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Anniversary"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_003",
+            "name": "Art Supply Set",
+            "category": "Creative",
+            "description": "Professional art supplies including paints, brushes, and canvas",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 20,
+                "creative": 95,
+                "managerial": 10,
+                "academic": 30,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_004",
+            "name": "Leather Journal",
+            "category": "Stationery",
+            "description": "Handcrafted leather journal with premium paper",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 30,
+                "technical": 10,
+                "creative": 70,
+                "managerial": 40,
+                "academic": 80,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 40
+            }
+        },
+        {
+            "id": "gift_005",
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "description": "Portable waterproof Bluetooth speaker",
+            "price_range": 55,
+            "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 80,
+                "technical": 60,
+                "creative": 50,
+                "managerial": 30,
+                "academic": 20,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_006",
+            "name": "Book Collection Set",
+            "category": "Books",
+            "description": "Curated collection of classic literature",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 20,
+                "technical": 15,
+                "creative": 60,
+                "managerial": 30,
+                "academic": 90,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_007",
+            "name": "Perfume/Cologne Set",
+            "category": "Personal Care",
+            "description": "Luxury fragrance set with matching lotion",
+            "price_range": 60,
+            "image_url": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 65,
+                "technical": 10,
+                "creative": 40,
+                "managerial": 50,
+                "academic": 20,
+                "style": "Trendy",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_008",
+            "name": "Coffee Maker",
+            "category": "Home",
+            "description": "Premium coffee maker with grinder",
+            "price_range": 65,
+            "image_url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 50,
+                "technical": 55,
+                "creative": 20,
+                "managerial": 60,
+                "academic": 70,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_009",
+            "name": "Yoga Mat Set",
+            "category": "Fitness",
+            "description": "Premium yoga mat with accessories",
+            "price_range": 30,
+            "image_url": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 20,
+                "creative": 30,
+                "managerial": 40,
+                "academic": 30,
+                "style": "Minimalist",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 40
+            }
+        },
+        {
+            "id": "gift_010",
+            "name": "Desk Organizer",
+            "category": "Office",
+            "description": "Modern desk organizer with charging station",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 35,
+                "technical": 50,
+                "creative": 30,
+                "managerial": 75,
+                "academic": 70,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_011",
+            "name": "Board Game Collection",
+            "category": "Games",
+            "description": "Collection of popular strategy board games",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1614030424754-24d0eebd46b2?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 75,
+                "technical": 40,
+                "creative": 50,
+                "managerial": 45,
+                "academic": 60,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_012",
+            "name": "Plant Terrarium Kit",
+            "category": "Home",
+            "description": "DIY terrarium kit with succulents",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1611329532403-8d2b646f6e2a?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 30,
+                "technical": 25,
+                "creative": 80,
+                "managerial": 20,
+                "academic": 40,
+                "style": "Trendy",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_013",
+            "name": "Mechanical Keyboard",
+            "category": "Electronics",
+            "description": "RGB mechanical keyboard for gaming/work",
+            "price_range": 70,
+            "image_url": "https://images.unsplash.com/photo-1579309401389-a2c495d03e85?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 55,
+                "technical": 90,
+                "creative": 35,
+                "managerial": 40,
+                "academic": 55,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_014",
+            "name": "Wine Decanter Set",
+            "category": "Home",
+            "description": "Crystal wine decanter with glasses",
+            "price_range": 55,
+            "image_url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 50,
+                "technical": 15,
+                "creative": 40,
+                "managerial": 65,
+                "academic": 30,
+                "style": "Classic",
+                "occasions": [
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_015",
+            "name": "Photography Course",
+            "category": "Experience",
+            "description": "Online photography masterclass subscription",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1598300188904-2cd8264ab41c?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 45,
+                "technical": 70,
+                "creative": 85,
+                "managerial": 25,
+                "academic": 60,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_016",
+            "name": "Cooking Class Voucher",
+            "category": "Experience",
+            "description": "Professional cooking class experience",
+            "price_range": 60,
+            "image_url": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 70,
+                "technical": 40,
+                "creative": 75,
+                "managerial": 35,
+                "academic": 30,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary"
+                ],
+                "relationship_score": 65
+            }
+        },
+        {
+            "id": "gift_017",
+            "name": "Fountain Pen Set",
+            "category": "Stationery",
+            "description": "Luxury fountain pen with ink collection",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 25,
+                "technical": 20,
+                "creative": 65,
+                "managerial": 70,
+                "academic": 85,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_018",
+            "name": "Portable Projector",
+            "category": "Electronics",
+            "description": "Mini portable projector for movies",
+            "price_range": 80,
+            "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 65,
+                "technical": 75,
+                "creative": 45,
+                "managerial": 35,
+                "academic": 40,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_019",
+            "name": "Scented Candle Set",
+            "category": "Home",
+            "description": "Premium handmade scented candles",
+            "price_range": 30,
+            "image_url": "https://images.unsplash.com/photo-1602874801006-96f1185e5e38?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 10,
+                "creative": 50,
+                "managerial": 30,
+                "academic": 20,
+                "style": "Minimalist",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_020",
+            "name": "Leather Wallet",
+            "category": "Accessories",
+            "description": "Premium leather bifold wallet",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+            "attributes": {
+                "gender": "male",
+                "personality": 50,
+                "technical": 15,
+                "creative": 25,
+                "managerial": 70,
+                "academic": 40,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary"
+                ],
+                "relationship_score": 65
+            }
+        },
+        {
+            "id": "gift_021",
+            "name": "Silk Scarf",
+            "category": "Accessories",
+            "description": "Luxury silk scarf with elegant design",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=500",
+            "attributes": {
+                "gender": "female",
+                "personality": 55,
+                "technical": 10,
+                "creative": 70,
+                "managerial": 50,
+                "academic": 30,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_022",
+            "name": "Gaming Mouse",
+            "category": "Electronics",
+            "description": "High-precision gaming mouse with RGB",
+            "price_range": 55,
+            "image_url": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 60,
+                "technical": 95,
+                "creative": 30,
+                "managerial": 25,
+                "academic": 45,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_023",
+            "name": "Aromatherapy Diffuser",
+            "category": "Home",
+            "description": "Ultrasonic essential oil diffuser",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 35,
+                "technical": 30,
+                "creative": 40,
+                "managerial": 30,
+                "academic": 25,
+                "style": "Minimalist",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_024",
+            "name": "Professional Planner",
+            "category": "Stationery",
+            "description": "Luxury leather planner for productivity",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 30,
+                "technical": 25,
+                "creative": 45,
+                "managerial": 85,
+                "academic": 75,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_025",
+            "name": "Cocktail Making Kit",
+            "category": "Home",
+            "description": "Complete cocktail shaker set with recipe book",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 75,
+                "technical": 30,
+                "creative": 60,
+                "managerial": 40,
+                "academic": 25,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_026",
+            "name": "Tablet Stand Dock",
+            "category": "Electronics",
+            "description": "Adjustable tablet/phone stand with charger",
+            "price_range": 30,
+            "image_url": "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 65,
+                "creative": 25,
+                "managerial": 55,
+                "academic": 70,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 40
+            }
+        },
+        {
+            "id": "gift_027",
+            "name": "Embroidery Kit",
+            "category": "Creative",
+            "description": "Complete embroidery starter kit",
+            "price_range": 30,
+            "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 25,
+                "technical": 30,
+                "creative": 90,
+                "managerial": 15,
+                "academic": 30,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_028",
+            "name": "Power Bank",
+            "category": "Electronics",
+            "description": "High-capacity portable power bank",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 60,
+                "technical": 70,
+                "creative": 20,
+                "managerial": 50,
+                "academic": 45,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 40
+            }
+        },
+        {
+            "id": "gift_029",
+            "name": "Travel Journal Set",
+            "category": "Stationery",
+            "description": "Travel journal with accessories",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 70,
+                "technical": 15,
+                "creative": 75,
+                "managerial": 30,
+                "academic": 50,
+                "style": "Trendy",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_030",
+            "name": "Chess Set",
+            "category": "Games",
+            "description": "Premium wooden chess set",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=500",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 30,
+                "technical": 35,
+                "creative": 40,
+                "managerial": 60,
+                "academic": 85,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 55
+            }
+        }
+    ]
+}
