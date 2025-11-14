@@ -1,5 +1,5 @@
 const production = {
-  url: "http://localhost:8000",
+  url: "https://fuzzysystem.onrender.com/",
 };
 const development = {
   url: "http://localhost:8000",
