@@ -33,6 +33,24 @@ Before running the application, make sure you have:
 
 ---
 
+# Docker setup (recommended)
+
+```bash
+cd backend
+```
+
+```bash
+docker compose up -d
+```
+
+The frontend will start at: **http://localhost:5173**
+
+The backend server will start at: **http://localhost:4000**
+
+You can check if it's running by visiting: http://localhost:4000 (you should see a JSON response)
+
+# Local setup
+
 ## 🚀 Backend Setup (FastAPI)
 
 ### Step 1: Navigate to Backend Directory
