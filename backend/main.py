@@ -92,7 +92,8 @@ async def generate_image_pairs(request: GenerateImagePairsRequest):
                     path=gift.get('image_url', 'placeholder.jpg'),
                     value=gift['id'],
                     name=gift['name'],
-                    description=gift['description']
+                    description=gift['description'],
+                    amazon_link=gift.get('amazon_link', '')
                 )
                 pair_images.append(image_info)
             image_pairs.append(pair_images)
@@ -161,7 +162,8 @@ async def generate_final_images(request: GenerateFinalImagesRequest):
                 name=gift['name'],
                 description=gift['description'],
                 category=gift['category'],
-                fuzzy_score=round(gift['fuzzy_score'], 2)
+                fuzzy_score=round(gift['fuzzy_score'], 2),
+                amazon_link=gift.get('amazon_link', '')
             )
             final_images.append(final_image)
         

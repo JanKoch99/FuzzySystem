@@ -7,6 +7,7 @@
             "description": "High-quality wireless earbuds with noise cancellation",
             "price_range": 50,
             "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=wireless+earbuds",
             "attributes": {
                 "gender": "neutral",
                 "personality": 60,
@@ -30,6 +31,7 @@
             "description": "Fitness tracking smartwatch with health monitoring",
             "price_range": 75,
             "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=smartwatch",
             "attributes": {
                 "gender": "neutral",
                 "personality": 70,
@@ -53,6 +55,7 @@
             "description": "Professional art supplies including paints, brushes, and canvas",
             "price_range": 45,
             "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=art+supply+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 40,
@@ -75,6 +78,7 @@
             "description": "Handcrafted leather journal with premium paper",
             "price_range": 35,
             "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=leather+journal",
             "attributes": {
                 "gender": "neutral",
                 "personality": 30,
@@ -98,6 +102,7 @@
             "description": "Portable waterproof Bluetooth speaker",
             "price_range": 55,
             "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=bluetooth+speaker",
             "attributes": {
                 "gender": "neutral",
                 "personality": 80,
@@ -120,6 +125,7 @@
             "description": "Curated collection of classic literature",
             "price_range": 40,
             "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=book+collection+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 20,
@@ -143,6 +149,7 @@
             "description": "Luxury fragrance set with matching lotion",
             "price_range": 60,
             "image_url": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=perfume+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 65,
@@ -166,6 +173,7 @@
             "description": "Premium coffee maker with grinder",
             "price_range": 65,
             "image_url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=coffee+maker",
             "attributes": {
                 "gender": "neutral",
                 "personality": 50,
@@ -188,6 +196,7 @@
             "description": "Premium yoga mat with accessories",
             "price_range": 30,
             "image_url": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=yoga+mat+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 40,
@@ -210,6 +219,7 @@
             "description": "Modern desk organizer with charging station",
             "price_range": 40,
             "image_url": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=desk+organizer",
             "attributes": {
                 "gender": "neutral",
                 "personality": 35,
@@ -231,7 +241,8 @@
             "category": "Games",
             "description": "Collection of popular strategy board games",
             "price_range": 45,
-            "image_url": "https://images.unsplash.com/photo-1614030424754-24d0eebd46b2?w=500",
+            "image_url": "https://images.unsplash.com/photo-1632501641765-e568d28b0015?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=board+game",
             "attributes": {
                 "gender": "neutral",
                 "personality": 75,
@@ -253,7 +264,8 @@
             "category": "Home",
             "description": "DIY terrarium kit with succulents",
             "price_range": 35,
-            "image_url": "https://images.unsplash.com/photo-1611329532403-8d2b646f6e2a?w=500",
+            "image_url": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=terrarium+kit",
             "attributes": {
                 "gender": "neutral",
                 "personality": 30,
@@ -275,7 +287,8 @@
             "category": "Electronics",
             "description": "RGB mechanical keyboard for gaming/work",
             "price_range": 70,
-            "image_url": "https://images.unsplash.com/photo-1579309401389-a2c495d03e85?w=500",
+            "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=mechanical+keyboard",
             "attributes": {
                 "gender": "neutral",
                 "personality": 55,
@@ -298,6 +311,7 @@
             "description": "Crystal wine decanter with glasses",
             "price_range": 55,
             "image_url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=wine+decanter+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 50,
@@ -319,7 +333,8 @@
             "category": "Experience",
             "description": "Online photography masterclass subscription",
             "price_range": 50,
-            "image_url": "https://images.unsplash.com/photo-1598300188904-2cd8264ab41c?w=500",
+            "image_url": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=photography+course",
             "attributes": {
                 "gender": "neutral",
                 "personality": 45,
@@ -342,6 +357,7 @@
             "description": "Professional cooking class experience",
             "price_range": 60,
             "image_url": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=cooking+class+voucher",
             "attributes": {
                 "gender": "neutral",
                 "personality": 70,
@@ -364,6 +380,7 @@
             "description": "Luxury fountain pen with ink collection",
             "price_range": 50,
             "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=fountain+pen+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 25,
@@ -386,6 +403,7 @@
             "description": "Mini portable projector for movies",
             "price_range": 80,
             "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=portable+projector",
             "attributes": {
                 "gender": "neutral",
                 "personality": 65,
@@ -408,6 +426,7 @@
             "description": "Premium handmade scented candles",
             "price_range": 30,
             "image_url": "https://images.unsplash.com/photo-1602874801006-96f1185e5e38?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=scented+candle+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 40,
@@ -430,6 +449,7 @@
             "description": "Premium leather bifold wallet",
             "price_range": 45,
             "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=leather+wallet",
             "attributes": {
                 "gender": "male",
                 "personality": 50,
@@ -452,6 +472,7 @@
             "description": "Luxury silk scarf with elegant design",
             "price_range": 40,
             "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=silk+scarf",
             "attributes": {
                 "gender": "female",
                 "personality": 55,
@@ -475,6 +496,7 @@
             "description": "High-precision gaming mouse with RGB",
             "price_range": 55,
             "image_url": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=gaming+mouse",
             "attributes": {
                 "gender": "neutral",
                 "personality": 60,
@@ -497,6 +519,7 @@
             "description": "Ultrasonic essential oil diffuser",
             "price_range": 35,
             "image_url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=aromatherapy+diffuser",
             "attributes": {
                 "gender": "neutral",
                 "personality": 35,
@@ -519,6 +542,7 @@
             "description": "Luxury leather planner for productivity",
             "price_range": 40,
             "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=professional+planner",
             "attributes": {
                 "gender": "neutral",
                 "personality": 30,
@@ -541,6 +565,7 @@
             "description": "Complete cocktail shaker set with recipe book",
             "price_range": 45,
             "image_url": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=cocktail+making+kit",
             "attributes": {
                 "gender": "neutral",
                 "personality": 75,
@@ -564,6 +589,7 @@
             "description": "Adjustable tablet/phone stand with charger",
             "price_range": 30,
             "image_url": "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=tablet+stand",
             "attributes": {
                 "gender": "neutral",
                 "personality": 40,
@@ -586,6 +612,7 @@
             "description": "Complete embroidery starter kit",
             "price_range": 30,
             "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=embroidery+kit",
             "attributes": {
                 "gender": "neutral",
                 "personality": 25,
@@ -608,6 +635,7 @@
             "description": "High-capacity portable power bank",
             "price_range": 35,
             "image_url": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=power+bank",
             "attributes": {
                 "gender": "neutral",
                 "personality": 60,
@@ -631,6 +659,7 @@
             "description": "Travel journal with accessories",
             "price_range": 35,
             "image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=travel+journal",
             "attributes": {
                 "gender": "neutral",
                 "personality": 70,
@@ -653,6 +682,7 @@
             "description": "Premium wooden chess set",
             "price_range": 50,
             "image_url": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=chess+set",
             "attributes": {
                 "gender": "neutral",
                 "personality": 30,
@@ -666,6 +696,476 @@
                     "Holiday"
                 ],
                 "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_031",
+            "name": "Noise Cancelling Headphones",
+            "category": "Electronics",
+            "description": "Premium over-ear headphones with active noise cancellation",
+            "price_range": 90,
+            "image_url": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=noise+cancelling+headphones",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 45,
+                "technical": 85,
+                "creative": 60,
+                "managerial": 40,
+                "academic": 70,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 65
+            }
+        },
+        {
+            "id": "gift_032",
+            "name": "Running Shoes",
+            "category": "Fitness",
+            "description": "High-performance running shoes with cushioning",
+            "price_range": 70,
+            "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=running+shoes",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 75,
+                "technical": 40,
+                "creative": 20,
+                "managerial": 50,
+                "academic": 25,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_033",
+            "name": "E-Reader",
+            "category": "Electronics",
+            "description": "Digital e-reader with backlight and long battery life",
+            "price_range": 85,
+            "image_url": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=e-reader",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 25,
+                "technical": 70,
+                "creative": 50,
+                "managerial": 35,
+                "academic": 95,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_034",
+            "name": "Cooking Knife Set",
+            "category": "Home",
+            "description": "Professional chef knife set with block",
+            "price_range": 75,
+            "image_url": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=cooking+knife+set",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 50,
+                "technical": 55,
+                "creative": 70,
+                "managerial": 45,
+                "academic": 30,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_035",
+            "name": "Fitness Tracker",
+            "category": "Fitness",
+            "description": "Activity tracker with heart rate monitor",
+            "price_range": 60,
+            "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=fitness+tracker",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 65,
+                "technical": 75,
+                "creative": 25,
+                "managerial": 60,
+                "academic": 35,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_036",
+            "name": "Drone with Camera",
+            "category": "Electronics",
+            "description": "Quadcopter drone with HD camera",
+            "price_range": 95,
+            "image_url": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=drone+with+camera",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 70,
+                "technical": 90,
+                "creative": 75,
+                "managerial": 30,
+                "academic": 40,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 65
+            }
+        },
+        {
+            "id": "gift_037",
+            "name": "Luxury Bathrobe",
+            "category": "Personal Care",
+            "description": "Plush cotton bathrobe with embroidery",
+            "price_range": 55,
+            "image_url": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=luxury+bathrobe",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 10,
+                "creative": 30,
+                "managerial": 45,
+                "academic": 20,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 75
+            }
+        },
+        {
+            "id": "gift_038",
+            "name": "Puzzle Set",
+            "category": "Games",
+            "description": "Collection of challenging jigsaw puzzles",
+            "price_range": 35,
+            "image_url": "https://images.unsplash.com/photo-1609058700004-608180fae6ac?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=puzzle+set",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 20,
+                "technical": 25,
+                "creative": 65,
+                "managerial": 40,
+                "academic": 70,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_039",
+            "name": "Digital Photo Frame",
+            "category": "Electronics",
+            "description": "Smart digital photo frame with WiFi",
+            "price_range": 65,
+            "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=digital+photo+frame",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 50,
+                "technical": 60,
+                "creative": 55,
+                "managerial": 35,
+                "academic": 30,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_040",
+            "name": "Backpack",
+            "category": "Accessories",
+            "description": "Waterproof laptop backpack with USB charging port",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=laptop+backpack",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 55,
+                "technical": 65,
+                "creative": 35,
+                "managerial": 70,
+                "academic": 75,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_041",
+            "name": "Tea Gift Set",
+            "category": "Food & Beverage",
+            "description": "Premium tea collection with infuser",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=tea+gift+set",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 30,
+                "technical": 15,
+                "creative": 45,
+                "managerial": 50,
+                "academic": 60,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_042",
+            "name": "Monitor",
+            "category": "Electronics",
+            "description": "27-inch 4K monitor for work and gaming",
+            "price_range": 100,
+            "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=monitor",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 50,
+                "technical": 95,
+                "creative": 70,
+                "managerial": 75,
+                "academic": 80,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Graduation"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_043",
+            "name": "Instant Camera",
+            "category": "Electronics",
+            "description": "Instant print camera with film pack",
+            "price_range": 70,
+            "image_url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=instant+camera",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 75,
+                "technical": 50,
+                "creative": 85,
+                "managerial": 25,
+                "academic": 35,
+                "style": "Trendy",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 60
+            }
+        },
+        {
+            "id": "gift_044",
+            "name": "Succulent Plant Collection",
+            "category": "Home",
+            "description": "Set of assorted succulent plants in decorative pots",
+            "price_range": 30,
+            "image_url": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=succulent+plants",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 35,
+                "technical": 20,
+                "creative": 60,
+                "managerial": 30,
+                "academic": 40,
+                "style": "Minimalist",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 45
+            }
+        },
+        {
+            "id": "gift_045",
+            "name": "Leather Messenger Bag",
+            "category": "Accessories",
+            "description": "Vintage leather messenger bag for laptop",
+            "price_range": 80,
+            "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=leather+messenger+bag",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 40,
+                "technical": 45,
+                "creative": 55,
+                "managerial": 75,
+                "academic": 70,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Graduation",
+                    "Anniversary"
+                ],
+                "relationship_score": 70
+            }
+        },
+        {
+            "id": "gift_046",
+            "name": "Wireless Charging Station",
+            "category": "Electronics",
+            "description": "Multi-device wireless charging dock",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=wireless+charging+station",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 55,
+                "technical": 80,
+                "creative": 30,
+                "managerial": 65,
+                "academic": 50,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_047",
+            "name": "Espresso Machine",
+            "category": "Home",
+            "description": "Compact espresso and cappuccino maker",
+            "price_range": 85,
+            "image_url": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=espresso+machine",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 45,
+                "technical": 60,
+                "creative": 40,
+                "managerial": 65,
+                "academic": 70,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 65
+            }
+        },
+        {
+            "id": "gift_048",
+            "name": "Watercolor Paint Set",
+            "category": "Creative",
+            "description": "Professional watercolor paint set with brushes",
+            "price_range": 40,
+            "image_url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=watercolor+paint+set",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 35,
+                "technical": 25,
+                "creative": 95,
+                "managerial": 15,
+                "academic": 35,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 50
+            }
+        },
+        {
+            "id": "gift_049",
+            "name": "Smart Light Bulbs",
+            "category": "Home",
+            "description": "WiFi-enabled color-changing smart bulbs set",
+            "price_range": 50,
+            "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=smart+light+bulbs",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 60,
+                "technical": 85,
+                "creative": 50,
+                "managerial": 40,
+                "academic": 35,
+                "style": "Modern",
+                "occasions": [
+                    "Birthday",
+                    "Holiday"
+                ],
+                "relationship_score": 55
+            }
+        },
+        {
+            "id": "gift_050",
+            "name": "Cookbook Collection",
+            "category": "Books",
+            "description": "Set of bestselling cookbooks from renowned chefs",
+            "price_range": 45,
+            "image_url": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500",
+            "amazon_link": "https://www.amazon.de/s?k=cookbook+collection",
+            "attributes": {
+                "gender": "neutral",
+                "personality": 55,
+                "technical": 20,
+                "creative": 80,
+                "managerial": 35,
+                "academic": 50,
+                "style": "Classic",
+                "occasions": [
+                    "Birthday",
+                    "Anniversary",
+                    "Holiday"
+                ],
+                "relationship_score": 60
             }
         }
     ]
