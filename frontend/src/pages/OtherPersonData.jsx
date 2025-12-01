@@ -14,7 +14,7 @@ export default function OtherPersonData() {
         creative: 0,
         managerial: 0,
         academic: 0,
-        style: "Classic",
+        style: "",
     });
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
@@ -149,7 +149,7 @@ export default function OtherPersonData() {
             <Form.Group className="mb-3">
                 <Form.Label column="sm">Style</Form.Label>
                 <Form.Select name="style" value={data.style} onChange={handleChange}>
-                    <option value="">Select</option>
+                    <option value="" selected>Select</option>
                     <option>Classic</option>
                     <option>Modern</option>
                     <option>Trendy</option>

@@ -16,7 +16,7 @@ export default function FinalSuggestion() {
     <div className="text-center">
       <h3>Final Suggestions</h3>
       <p>Pick your favorite gift idea:</p>
-      <Row className="mt-3">
+      <Row className="mt-3 d-flex align-items-center">
         {images.map((img, i) => (
           <Col key={i}>
             <Image
