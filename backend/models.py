@@ -39,6 +39,7 @@ class ImageInfo(BaseModel):
     value: str = Field(..., description="Gift ID")
     name: Optional[str] = Field(None, description="Gift name")
     description: Optional[str] = Field(None, description="Gift description")
+    amazon_link: Optional[str] = Field(None, description="Amazon search link for the gift")
 
 
 class GenerateImagePairsResponse(BaseModel):
@@ -70,6 +71,7 @@ class FinalImageInfo(BaseModel):
     description: str = Field(..., description="Gift description")
     category: str = Field(..., description="Gift category")
     fuzzy_score: float = Field(..., description="Fuzzy logic compatibility score")
+    amazon_link: Optional[str] = Field(None, description="Amazon search link for the gift")
 
 
 class GenerateFinalImagesResponse(BaseModel):

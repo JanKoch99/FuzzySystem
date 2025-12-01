@@ -242,11 +242,11 @@ class GiftRecommendationFuzzySystem:
             # Apply additional matching bonuses
             bonus_score = 0.0
             
-            # Budget compatibility bonus
+            # Budget compatibility bonus (MULTIPLIED for greater impact)
             gift_price = gift['price_range']
             user_budget_value = float(user_data.get('budget', 50))
             budget_match = 100 - abs(gift_price - user_budget_value)
-            bonus_score += (budget_match / 100) * 10
+            bonus_score += (budget_match / 100) * 20  # Increased from 10 to 20
             
             # Personality match bonus
             personality_diff = abs(
@@ -305,6 +305,29 @@ class GiftRecommendationFuzzySystem:
                 float(user_data.get('relationship', 50))
             )
             bonus_score += (1 - relationship_match / 100) * 7
+            
+            # Age-based bonus (ADDED for greater age impact)
+            user_age = float(user_data.get('age', 50))
+            # Young users (0-40) prefer modern, trendy, technical gifts
+            if user_age <= 40:
+                if gift['attributes']['style'] in ['Modern', 'Trendy']:
+                    bonus_score += 8
+                if gift['attributes']['technical'] >= 70:
+                    bonus_score += 6
+            # Middle age users (30-70) prefer balanced gifts
+            elif 30 < user_age <= 70:
+                if gift['attributes']['style'] in ['Modern', 'Classic']:
+                    bonus_score += 5
+                if gift['category'] in ['Home', 'Office', 'Experience']:
+                    bonus_score += 5
+            # Mature users (60+) prefer classic, academic, quality gifts
+            else:
+                if gift['attributes']['style'] == 'Classic':
+                    bonus_score += 8
+                if gift['attributes']['academic'] >= 60:
+                    bonus_score += 6
+                if gift['category'] in ['Books', 'Stationery', 'Home']:
+                    bonus_score += 5
             
             # Combine base score with bonus
             final_score = min(100, base_score + bonus_score)
