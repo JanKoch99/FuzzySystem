@@ -77,7 +77,7 @@
             "category": "Stationery",
             "description": "Handcrafted leather journal with premium paper",
             "price_range": 35,
-            "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+            "image_url": "https://plus.unsplash.com/premium_photo-1726729358231-aab9a3adf644?w=500",
             "amazon_link": "https://www.amazon.de/s?k=leather+journal",
             "attributes": {
                 "gender": "neutral",
@@ -172,7 +172,7 @@
             "category": "Home",
             "description": "Premium coffee maker with grinder",
             "price_range": 65,
-            "image_url": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500",
+            "image_url": "https://images.unsplash.com/photo-1608354580875-30bd4168b351?w=500",
             "amazon_link": "https://www.amazon.de/s?k=coffee+maker",
             "attributes": {
                 "gender": "neutral",
@@ -195,7 +195,7 @@
             "category": "Fitness",
             "description": "Premium yoga mat with accessories",
             "price_range": 30,
-            "image_url": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=500",
+            "image_url": "https://images.unsplash.com/photo-1646239646963-b0b9be56d6b5?w=500",
             "amazon_link": "https://www.amazon.de/s?k=yoga+mat+set",
             "attributes": {
                 "gender": "neutral",
@@ -218,7 +218,7 @@
             "category": "Office",
             "description": "Modern desk organizer with charging station",
             "price_range": 40,
-            "image_url": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=500",
+            "image_url": "https://images.unsplash.com/photo-1644463589256-02679b9c0767?w=500",
             "amazon_link": "https://www.amazon.de/s?k=desk+organizer",
             "attributes": {
                 "gender": "neutral",
@@ -264,7 +264,7 @@
             "category": "Home",
             "description": "DIY terrarium kit with succulents",
             "price_range": 35,
-            "image_url": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=500",
+            "image_url": "https://images.unsplash.com/photo-1745470553430-433080aac7b3?w=500",
             "amazon_link": "https://www.amazon.de/s?k=terrarium+kit",
             "attributes": {
                 "gender": "neutral",
@@ -287,7 +287,7 @@
             "category": "Electronics",
             "description": "RGB mechanical keyboard for gaming/work",
             "price_range": 70,
-            "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+            "image_url": "https://images.unsplash.com/photo-1602025882379-e01cf08baa51?w=500",
             "amazon_link": "https://www.amazon.de/s?k=mechanical+keyboard",
             "attributes": {
                 "gender": "neutral",
@@ -310,7 +310,7 @@
             "category": "Home",
             "description": "Crystal wine decanter with glasses",
             "price_range": 55,
-            "image_url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500",
+            "image_url": "https://images.unsplash.com/photo-1561668137-58955d51a5fb?w=500",
             "amazon_link": "https://www.amazon.de/s?k=wine+decanter+set",
             "attributes": {
                 "gender": "neutral",
@@ -356,7 +356,7 @@
             "category": "Experience",
             "description": "Professional cooking class experience",
             "price_range": 60,
-            "image_url": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=500",
+            "image_url": "https://plus.unsplash.com/premium_photo-1683707120097-0fafdfb332c7?w=500",
             "amazon_link": "https://www.amazon.de/s?k=cooking+class+voucher",
             "attributes": {
                 "gender": "neutral",
@@ -379,7 +379,7 @@
             "category": "Stationery",
             "description": "Luxury fountain pen with ink collection",
             "price_range": 50,
-            "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+            "image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500",
             "amazon_link": "https://www.amazon.de/s?k=fountain+pen+set",
             "attributes": {
                 "gender": "neutral",
@@ -402,7 +402,7 @@
             "category": "Electronics",
             "description": "Mini portable projector for movies",
             "price_range": 80,
-            "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500",
+            "image_url": "https://images.unsplash.com/photo-1638154320403-1bc308a01398?w=500",
             "amazon_link": "https://www.amazon.de/s?k=portable+projector",
             "attributes": {
                 "gender": "neutral",
@@ -425,7 +425,7 @@
             "category": "Home",
             "description": "Premium handmade scented candles",
             "price_range": 30,
-            "image_url": "https://images.unsplash.com/photo-1602874801006-96f1185e5e38?w=500",
+            "image_url": "https://images.unsplash.com/photo-1603905179139-db12ab535ca9?w=500",
             "amazon_link": "https://www.amazon.de/s?k=scented+candle+set",
             "attributes": {
                 "gender": "neutral",
@@ -471,7 +471,7 @@
             "category": "Accessories",
             "description": "Luxury silk scarf with elegant design",
             "price_range": 40,
-            "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=500",
+            "image_url": "https://images.unsplash.com/photo-1677478863154-55ecce8c7536?w=500",
             "amazon_link": "https://www.amazon.de/s?k=silk+scarf",
             "attributes": {
                 "gender": "female",
@@ -541,7 +541,7 @@
             "category": "Stationery",
             "description": "Luxury leather planner for productivity",
             "price_range": 40,
-            "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
+            "image_url": "https://images.unsplash.com/photo-1653432085209-18f6717d8649?w=500",
             "amazon_link": "https://www.amazon.de/s?k=professional+planner",
             "attributes": {
                 "gender": "neutral",
@@ -588,7 +588,7 @@
             "category": "Electronics",
             "description": "Adjustable tablet/phone stand with charger",
             "price_range": 30,
-            "image_url": "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=500",
+            "image_url": "https://images.unsplash.com/photo-1652863299050-15c836e15ae4?w=500",
             "amazon_link": "https://www.amazon.de/s?k=tablet+stand",
             "attributes": {
                 "gender": "neutral",
@@ -611,7 +611,7 @@
             "category": "Creative",
             "description": "Complete embroidery starter kit",
             "price_range": 30,
-            "image_url": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=500",
+            "image_url": "https://images.unsplash.com/photo-1671535108665-eeeb723ebebf?w=500",
             "amazon_link": "https://www.amazon.de/s?k=embroidery+kit",
             "attributes": {
                 "gender": "neutral",
@@ -658,7 +658,7 @@
             "category": "Stationery",
             "description": "Travel journal with accessories",
             "price_range": 35,
-            "image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500",
+            "image_url": "https://images.unsplash.com/photo-1641104263773-ac964d3405c7?w=500",
             "amazon_link": "https://www.amazon.de/s?k=travel+journal",
             "attributes": {
                 "gender": "neutral",
@@ -751,7 +751,7 @@
             "category": "Electronics",
             "description": "Digital e-reader with backlight and long battery life",
             "price_range": 85,
-            "image_url": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=500",
+            "image_url": "https://images.unsplash.com/photo-1603406136476-85d8c3ec76a5?w=500",
             "amazon_link": "https://www.amazon.de/s?k=e-reader",
             "attributes": {
                 "gender": "neutral",
@@ -846,7 +846,7 @@
             "category": "Personal Care",
             "description": "Plush cotton bathrobe with embroidery",
             "price_range": 55,
-            "image_url": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=500",
+            "image_url": "https://images.unsplash.com/photo-1710378439817-6159c79bda03?w=500",
             "amazon_link": "https://www.amazon.de/s?k=luxury+bathrobe",
             "attributes": {
                 "gender": "neutral",
@@ -964,7 +964,7 @@
             "category": "Electronics",
             "description": "27-inch 4K monitor for work and gaming",
             "price_range": 100,
-            "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+            "image_url": "https://plus.unsplash.com/premium_photo-1681816189679-fa02d1acd1de?w=500",
             "amazon_link": "https://www.amazon.de/s?k=monitor",
             "attributes": {
                 "gender": "neutral",
@@ -1033,7 +1033,7 @@
             "category": "Accessories",
             "description": "Vintage leather messenger bag for laptop",
             "price_range": 80,
-            "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500",
+            "image_url": "https://plus.unsplash.com/premium_photo-1664353833832-b03ab1a002b0?w=500",
             "amazon_link": "https://www.amazon.de/s?k=leather+messenger+bag",
             "attributes": {
                 "gender": "neutral",
@@ -1057,7 +1057,7 @@
             "category": "Electronics",
             "description": "Multi-device wireless charging dock",
             "price_range": 45,
-            "image_url": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=500",
+            "image_url": "https://images.unsplash.com/photo-1598978465764-7db2b679c694?w=500",
             "amazon_link": "https://www.amazon.de/s?k=wireless+charging+station",
             "attributes": {
                 "gender": "neutral",
@@ -1080,7 +1080,7 @@
             "category": "Home",
             "description": "Compact espresso and cappuccino maker",
             "price_range": 85,
-            "image_url": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=500",
+            "image_url": "https://images.unsplash.com/photo-1627902511858-6ad7e004fd35?w=500",
             "amazon_link": "https://www.amazon.de/s?k=espresso+machine",
             "attributes": {
                 "gender": "neutral",
@@ -1104,7 +1104,7 @@
             "category": "Creative",
             "description": "Professional watercolor paint set with brushes",
             "price_range": 40,
-            "image_url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=500",
+            "image_url": "https://images.unsplash.com/photo-1658402995914-22a4ba7e1a94?w=500",
             "amazon_link": "https://www.amazon.de/s?k=watercolor+paint+set",
             "attributes": {
                 "gender": "neutral",
@@ -1127,7 +1127,7 @@
             "category": "Home",
             "description": "WiFi-enabled color-changing smart bulbs set",
             "price_range": 50,
-            "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+            "image_url": "https://images.unsplash.com/photo-1712599609774-172848255a9f?w=500",
             "amazon_link": "https://www.amazon.de/s?k=smart+light+bulbs",
             "attributes": {
                 "gender": "neutral",
@@ -1150,7 +1150,7 @@
             "category": "Books",
             "description": "Set of bestselling cookbooks from renowned chefs",
             "price_range": 45,
-            "image_url": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500",
+            "image_url": "https://images.unsplash.com/photo-1761319114933-38b381ae431c?w=500",
             "amazon_link": "https://www.amazon.de/s?k=cookbook+collection",
             "attributes": {
                 "gender": "neutral",
