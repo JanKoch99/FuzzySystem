@@ -49,7 +49,7 @@ export default function ImageChoice() {
         Choose your preferred gift (Round {round + 1}/{totalRounds})
       </h3>
       <Row className="mt-4">
-        <Col>
+        <Col className="d-flex justify-content-center align-items-center">
           <Image
             src={getImageSrc(pairs[round][0].path)}
             thumbnail
@@ -57,7 +57,7 @@ export default function ImageChoice() {
             onClick={() => handleChoice(pairs[round][0].value)}
           />
         </Col>
-        <Col>
+        <Col className="d-flex justify-content-center align-items-center">
           <Image
             src={getImageSrc(pairs[round][1].path)}
             thumbnail
