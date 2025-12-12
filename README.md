@@ -36,12 +36,17 @@ Before running the application, make sure you have:
 # Docker setup (recommended)
 
 ```bash
-cd backend
-```
-
-```bash
 docker compose up -d
 ```
+
+## Mac or Linux
+
+```bash
+chomod +x start.sh
+
+./start.sh
+```
+
 
 The frontend will start at: **http://localhost:5173**
 
